@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: #6c5ce7; /* warna deeep purple*/
+    color: #000; /* warna teks */
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* warna teks */
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%); /* warna background gradian */
+    color: #000; /* warna teks */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+    color: #000; /* warna teks */
+    font-weight: bold; /* membuat teks tebal */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #007bff;
+    color: #000; /* warna teks */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #000; /* warna teks */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    color: #000; /* warna teks */
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #000; /* warna teks */
+}
+
+.waktu {
+    font-size: 14px;
+    color: #fd0000; /* warna teks */
+}
+
+.footer p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #000;
+    width: 0;
+    animation: typing 2s steps(20, end) forwards;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
